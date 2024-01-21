@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="514.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.saestwo.controllers.ControllerW_Login">
+   <children>
+      <VBox prefHeight="514.0" prefWidth="490.0">
+         <children>
+            <Pane prefHeight="514.0" prefWidth="490.0">
+               <children>
+                  <Hyperlink fx:id="hiperBack" layoutX="31.0" layoutY="27.0" onAction="#back" text="Regresar" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <Label layoutX="78.0" layoutY="46.0" prefHeight="80.0" prefWidth="334.0" text="Iniciar sesion" textFill="#7c0404">
+         <font>
+            <Font name="System Bold" size="54.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="171.0" text="Usuario:">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="245.0" text="Contraseña:">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="193.0" layoutY="168.0" prefHeight="30.0" prefWidth="233.0" />
+      <TextField layoutX="193.0" layoutY="242.0" prefHeight="30.0" prefWidth="233.0" />
+      <Button layoutX="203.0" layoutY="422.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="84.0" text="Enviar">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Hyperlink alignment="CENTER" layoutX="202.0" layoutY="308.0" prefHeight="23.0" prefWidth="99.0" text="¿Eres profesor?" underline="true" />
+      <Separator layoutX="63.0" layoutY="371.0" prefHeight="9.0" prefWidth="179.0" />
+      <Separator layoutX="263.0" layoutY="371.0" prefHeight="9.0" prefWidth="179.0" />
+   </children>
+</AnchorPane>

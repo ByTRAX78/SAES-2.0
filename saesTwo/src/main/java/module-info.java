@@ -3,6 +3,10 @@ module com.saestwo.saestwo {
     requires javafx.fxml;
 
 
-    opens com.saestwo.saestwo to javafx.fxml;
-    exports com.saestwo.saestwo;
+    opens com.saestwo to javafx.fxml;
+    exports com.saestwo;
+    exports com.saestwo.model;
+    opens com.saestwo.model to javafx.fxml;
+    exports com.saestwo.controllers;
+    opens com.saestwo.controllers to javafx.fxml;
 }
