@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="686.0" prefWidth="1033.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.saestwo.controllers.ControllerW_VInfoStudent">
+   <children>
+      <Label layoutX="145.0" layoutY="14.0" text="¡Bienvenido!" textFill="#0f4090">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="95.0" text="Nombre:">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="172.0" text="Primer apeliido:">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="260.0" text="Segundo apeliido:">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="349.0" text="Curp:">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="443.0" text="Semestre:">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TableView layoutX="353.0" layoutY="80.0" prefHeight="526.0" prefWidth="657.0">
+        <columns>
+          <TableColumn prefWidth="194.0" text="Materia" />
+          <TableColumn prefWidth="160.0" text="Semestre" />
+            <TableColumn prefWidth="332.0" text="Calificaciones">
+               <columns>
+                  <TableColumn prefWidth="100.0" text="1er Parcial" />
+                  <TableColumn prefWidth="100.0" text="2do Parcial" />
+                  <TableColumn prefWidth="100.0" text="3er Parcial" />
+               </columns>
+            </TableColumn>
+        </columns>
+      </TableView>
+      <TextField layoutX="55.0" layoutY="128.0" />
+      <TextField layoutX="55.0" layoutY="212.0" />
+      <TextField layoutX="55.0" layoutY="300.0" />
+      <TextField layoutX="55.0" layoutY="386.0" prefHeight="25.0" prefWidth="222.0" />
+      <TextField layoutX="55.0" layoutY="482.0" />
+      <Button layoutX="709.0" layoutY="621.0" mnemonicParsing="false" text="Inscribir Materias">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextField layoutX="876.0" layoutY="623.0" prefHeight="25.0" prefWidth="134.0" />
+      <Hyperlink layoutX="891.0" layoutY="28.0" text="Regresar">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="56.0" layoutY="624.0" text="Cerrar sesión">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

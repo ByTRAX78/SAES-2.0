@@ -9,4 +9,6 @@ module com.saestwo.saestwo {
     opens com.saestwo.model to javafx.fxml;
     exports com.saestwo.controllers;
     opens com.saestwo.controllers to javafx.fxml;
+    exports com.saestwo.employees;
+    opens com.saestwo.employees to javafx.fxml;
 }

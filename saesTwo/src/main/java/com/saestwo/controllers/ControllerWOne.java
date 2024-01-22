@@ -12,30 +12,29 @@ public class ControllerWOne {
 
     @FXML
     private Stage primaryStage;
-    public Button bottonsesion;
+    public Button btnsesion;
 
-    private ModelWOne modelWOne = new ModelWOne();
+    public Button btnregister;
+
+    private final ModelWOne modelWOne = new ModelWOne();
 
 
     @FXML
     private void initialize() {
 
-        bottonsesion.setOnAction(event ->  modelWOne.abrirNuevaVentana());
+        btnsesion.setOnAction(event ->  modelWOne.openLogin());
+        btnregister.setOnAction(event ->  modelWOne.openRegister());
 
 
     }
+
+
 
     public void setPrimaryStage(Stage primStage) {
         this.primaryStage = primStage;
         modelWOne.setPrimaryStage(primaryStage);
 
     }
-
-
-
-
-
-
 
 
 
