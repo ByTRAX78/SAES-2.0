@@ -15,40 +15,42 @@
             <Font name="System Bold" size="35.0" />
          </font>
       </Label>
-      <Label layoutX="37.0" layoutY="124.0" text="Nombre:">
+      <Label layoutX="37.0" layoutY="215.0" text="Nombre:">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </Label>
-      <Label layoutX="33.0" layoutY="209.0" text="Primer apeliido:">
+      <Label layoutX="36.0" layoutY="298.0" text="Primer apeliido:">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </Label>
-      <Label layoutX="35.0" layoutY="291.0" text="Segundo apeliido:">
+      <Label layoutX="36.0" layoutY="379.0" text="Segundo apeliido:">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </Label>
-      <Label layoutX="35.0" layoutY="380.0" text="Curp:">
+      <Label layoutX="37.0" layoutY="474.0" text="Curp:">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </Label>
-      <Label layoutX="33.0" layoutY="468.0" text="Semestre:">
+      <Label layoutX="43.0" layoutY="131.0" text="ID">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </Label>
-      <TableView layoutX="353.0" layoutY="80.0" prefHeight="506.0" prefWidth="657.0">
+      <TableView layoutX="308.0" layoutY="83.0" prefHeight="506.0" prefWidth="698.0">
         <columns>
+          <TableColumn prefWidth="99.0" text="Semestre" />
           <TableColumn prefWidth="194.0" text="Materia" />
-          <TableColumn prefWidth="160.0" text="Semestre" />
-            <TableColumn prefWidth="332.0" text="Calificaciones">
+            <TableColumn prefWidth="413.0" text="Horario">
                <columns>
-                  <TableColumn prefWidth="100.0" text="1er Parcial" />
-                  <TableColumn prefWidth="100.0" text="2do Parcial" />
-                  <TableColumn prefWidth="100.0" text="3er Parcial" />
+                  <TableColumn prefWidth="85.0" text="L" />
+                  <TableColumn prefWidth="81.0" text="Ma" />
+                  <TableColumn prefWidth="87.0" text="Mi" />
+                  <TableColumn prefWidth="78.0" text="J" />
+                  <TableColumn prefWidth="78.0" text="V" />
                </columns>
             </TableColumn>
         </columns>
@@ -58,26 +60,20 @@
       <TextField layoutX="55.0" layoutY="324.0" />
       <TextField layoutX="53.0" layoutY="414.0" prefHeight="25.0" prefWidth="222.0" />
       <TextField layoutX="54.0" layoutY="500.0" />
-      <Button layoutX="709.0" layoutY="619.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="125.0" text="Inscribir Materias">
+      <Button layoutX="881.0" layoutY="619.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="125.0" text="Inscribir Materias">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </Button>
-      <TextField layoutX="876.0" layoutY="623.0" prefHeight="39.0" prefWidth="117.0" />
-      <Hyperlink layoutX="891.0" layoutY="28.0" text="Regresar">
+      <Hyperlink layoutX="934.0" layoutY="29.0" text="Regresar">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </Hyperlink>
-      <Hyperlink layoutX="56.0" layoutY="624.0" text="Cerrar sesión">
+      <Hyperlink layoutX="57.0" layoutY="624.0" text="Cerrar sesión">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </Hyperlink>
-      <Label layoutX="872.0" layoutY="603.0" text="Promedio final:">
-         <font>
-            <Font name="System Bold" size="14.0" />
-         </font>
-      </Label>
    </children>
 </AnchorPane>

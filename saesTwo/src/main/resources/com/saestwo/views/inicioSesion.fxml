@@ -15,16 +15,16 @@
          <children>
             <Pane prefHeight="514.0" prefWidth="490.0">
                <children>
-                  <Hyperlink fx:id="hiperBack" layoutX="31.0" layoutY="27.0" onAction="#back" text="Regresar" />
+                  <Hyperlink fx:id="hiperBack" layoutX="27.0" layoutY="21.0" onAction="#back" text="Regresar" />
+                  <Label layoutX="78.0" layoutY="64.0" prefHeight="80.0" prefWidth="334.0" text="Iniciar sesion" textFill="#050a7a">
+                     <font>
+                        <Font name="System Bold" size="54.0" />
+                     </font>
+                  </Label>
                </children>
             </Pane>
          </children>
       </VBox>
-      <Label layoutX="78.0" layoutY="46.0" prefHeight="80.0" prefWidth="334.0" text="Iniciar sesion" textFill="#7c0404">
-         <font>
-            <Font name="System Bold" size="54.0" />
-         </font>
-      </Label>
       <Label layoutX="63.0" layoutY="171.0" text="Usuario:">
          <font>
             <Font name="Arial Bold" size="20.0" />
